@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background: linear-gradient(rgba(14, 13, 13, 0.5), rgba(24, 23, 23, 0.5)), url("img/libr.jpg");
+    font-family: 'Parisienne', cursive;
+    font-weight: 600;
+}
+
+#imgAuteur {
+    height: 100px;
+    width: 100px;
+    border-radius: 110px;
+    text-align: right;
+}
+
+#imgLivre {
+    height: 300px;
+    width: 300px;
+}
+
+.form {
+    background-color: rgba(153, 152, 152, 0.527);
+    margin-top: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: black;
+}
+
+nav {
+    margin-top: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.divmaumau {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.titre {
+    color: white;
+    margin-top: 40px;
+}
+
+.titre h1 {
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.p {
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.p p {
+    margin: 0%;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.w-100 {
+    width: 85%!important;
+    ;
+}
+
+.carousel {
+    margin-top: 20px;
+}
+
+@media(max-width: 750px) {
+    .divmaumau {
+        text-align: center;
+    }
+    .titre h1 {
+        text-align: center;
+    }
+    .divlivre {
+        text-align: center;
+    }
+}
